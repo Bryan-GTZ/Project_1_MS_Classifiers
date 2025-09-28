@@ -23,7 +23,7 @@ In the *Machine Learning with PyTorch and Scikit-Learn* (Raschka et al.), it tal
 
 As we can see, the scikit-learn Perceptron and SGDRegressor/SGDClassifier are tailored to fit the situation. We added stochastic or mini-batch gradient descent, shuffling, and regularization. Since we implemented all of these features, this has improved generalization and convergence speed, as mentioned in the textbook. They are also being fed through pipelines and are being cross-validated.
 
-📖 **Reference**  
+**Reference**  
 > Raschka, S., Liu, Y., & Mirjalili, V. (2022). *Machine Learning with PyTorch and Scikit-Learn*. Packt Publishing.  
 > (See Chapter 2 on Adaline and gradient descent, and Chapter 3 on scikit-learn’s Perceptron).
 
