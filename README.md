@@ -27,6 +27,18 @@ We used both **custom algorithms** from *Machine Learning with PyTorch and Sciki
 - **Model selection**: Apply `GridSearchCV` for hyperparameter tuning with cross-validation.
 - **Evaluation**: Compare training/test performance, visualize decision boundaries, and analyze validation predictions.
 
+
+## Parts of the notebook 
+- **Part 1 (Preprocessing)**
+  -  Data: (`Project_adult.csv`) and (`project_validation_inputs.csv`)
+      -  Steps:
+      -  Fixed the missing values
+          -  Numerical were filled with the median
+          -  categorical was filled with the mode
+      -  What was applied
+          - We used Standa
+
+
   
  ## Reflection and Conceptual Questions:
  
