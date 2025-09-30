@@ -57,31 +57,42 @@ We used both **custom algorithms** from *Machine Learning with PyTorch and Sciki
 
 
 - **Part 3 (SVM and Logistic Regression)**
+
+- For the final approaches, we looked at how Logistic Regression and Support Vector Machines (SVM) perfomed on our data. We focused on tuning the regularization (C-values), analyzing the decision boundaries and looking at consuion matrices to see performance.
     - **Logistic Regression**
         - Tested C = [0.01, 1.0, 100.0]
-        - We found that the best C was 1.0 and it got us an accuracy of .8479
+        - A moderate regularization was the best performing C-value for our model.
+        - Best Model Results:
+        - C = **1.0**
+        - Accuracy = **.8479** or **84.79%**
 
     - **SVM**
         - Tested C = [0.01, 1.0, 100.0]
-        - We found that the best C was 0.01 and it got us an accuracy of .8477
+        - SVM perfomed best with higher regularization (smaller C-value)
+        - Best Model Results:
+        - C = **0.01**
+        - Accuracy = **.8477** or **84.77%**
     
   - **Decision Boundaries**
-      - We tested Age and Capital loss on Logistic Regression we realized that there was a diagonal line so both age and Capital loss mattters
-      - We tested Age and Capital loss on SVM we realized that there was an horizontal line so what this means was that the model relies more on capital loss
+      - We test the index [0,4] which relates to Age [0] and Capital Loss [4] on both Logistic Regression and SVM
+      - **Logistic Regresssion:** Our decision boundary was a straight, diagonal line, which infers that both values are pulling weight when classifying 0 or 1 (More than $50k or less than $50k).
+      - **SVM:** Our decision boundary was a horizontal line with a slope of zero. This infers that the model relies heavily on Capital Loss and less on Age when comparing these two values.
 
 
 
   - **Regularization**
-      - We realized that both models did improve with modarate C values
-      - Small C it would underfit
-      - Large C it would Overfit
+      - After plotting accurary for both SVM and Logistic Regression, we saw both methods performed worse with a very small C-value.
+      - Both performed at their best at the range of 0.01 to 1, after that their performance lowered a little bit.
+      - Small C it would underfit, making the model too simple.
+      - Large C it would overfit, making the model too complex
       
         
 
   - **Confusion Matricies**
       - SVM: [[5609, 387], [803, 1016]]
       - Logestic Regression: [[5530, 466], [723, 1096]]
-      - They had basicaly the same performance this basicaly means that both models are strong classifiers
+      - They had basicaly the same performance this basicaly means that both models are strong classifiers.
+      - Both performed better at identifying class 0 than class 1.
 
 
   
