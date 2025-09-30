@@ -128,5 +128,5 @@ We used both **custom algorithms** from *Machine Learning with PyTorch and Sciki
 ## Location of Repository
 - **Documents** -> Reflection_and_Conceptual_Questions.md, Group 16 Slides - Final.pptx
 - **Notebook** -> Group_16_sklearn_perceptron_adaline.ipynb
-- **ML_outputs** -> output prediction files for adaline, preceptron, SVM, and Logistic Regression
-- **Data_needed** -> the two files needed to run the notebook, (`project_adult.csv`) and (`project_validation_inputs.csv`)
+- **ML_outputs** -> Output prediction files for adaline, preceptron, SVM, and Logistic Regression
+- **Data_needed** -> The two files needed to run the notebook, (`project_adult.csv`) and (`project_validation_inputs.csv`)
