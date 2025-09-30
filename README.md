@@ -16,4 +16,8 @@ We implement both **custom algorithms** from *Machine Learning with PyTorch and 
 ## Deliverables  
 - **Jupyter Notebook**: Code, preprocessing steps, model training, evaluation, and plots.  
 - **CSV Files**: Predicted outputs on the validation dataset for each model (`Group_16_Model_PredictedOutputs.csv`).  
-- **Report/Slides**: Summarize methodology, results, and reflections.  
+- **Report/Slides**: Summarize methodology, results, and reflections.
+
+
+## Location of Repository
+- **Documents** -> 
