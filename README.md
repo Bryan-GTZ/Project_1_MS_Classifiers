@@ -37,3 +37,9 @@ We used both **custom algorithms** from *Machine Learning with PyTorch and Sciki
   - What is the role of regularization in preventing overfitting?
   - Vary the C values of the scikit-learn LogisticRegression and linear SVC models with  [0.01, 1.0, 100.0] .
 
+## Deliverables  
+- **Jupyter Notebook**: Code, preprocessing steps, model training, evaluation, and plots (`Group_16_sklearn_perceptron_adaline.ipynb`).  
+- **CSV Files**: Predicted outputs on the validation dataset for each model (`Group_16_Model_PredictedOutputs.csv`).  
+- **Recording/Slides**: Summarize of report, results, and reflections.
+
+
