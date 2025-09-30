@@ -33,7 +33,7 @@ Both Logistic Regression and the SVM classifiers create straight line decision b
 - The SVM finds a boundary that maximizes the difference between the closest points of the support vector. It focuses on the most critical points only.  
 - The Logistic Regression classifies its boundary by finding the probability that a given point belongs to a certain class.  
 
-The difference is shown in my visuals, where I used Age and Capital Lost to create my decision boundaries. The Logistic Regression model’s boundary is a steep line, and the SVM model has no slope.  
+The difference is shown in my visuals, where I used Age and Capital Lost to create my decision boundaries. The Logistic Regression model’s boundary is a steep line, and the SVM model has no slope. This implies that the SVM model is not considering the "Age" index as much as it is the "Capital Loss" when classifying.  
 
 ---
 
