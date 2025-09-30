@@ -14,3 +14,9 @@ This project explores and compares the linear machine learning classifiers we we
 | Marital Status     | Sex              |
 | Capital Gain        | Hours Per Week   |
 | Native Country     |    Capital Loss              |
+
+
+We used both **custom algorithms** from *Machine Learning with PyTorch and Scikit-Learn* (Raschka, Liu, & Mirjalili, 2022) and **scikit-learn**, so we can see the differences in performance, convergence, and generalization. The purpose of the project is to learn the classic algorithms and there optimized counterparts.  
+
+
+
