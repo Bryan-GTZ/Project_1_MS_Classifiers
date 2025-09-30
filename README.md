@@ -20,4 +20,5 @@ We implement both **custom algorithms** from *Machine Learning with PyTorch and 
 
 
 ## Location of Repository
-- **Documents** -> 
+- **Documents** -> Reflection_and_Conceptual_Questions.md
+- 
