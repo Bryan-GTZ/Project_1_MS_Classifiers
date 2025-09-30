@@ -36,7 +36,66 @@ We used both **custom algorithms** from *Machine Learning with PyTorch and Sciki
           -  Numerical were filled with the median
           -  categorical was filled with the mode
       -  What was applied
-          - We used Standa
+          - We used StandardScaler for the numerical features
+          - We used OneHotEncoder for the categorical values
+      - Target income by making >50 = 1, and <=50 =0
+      - The training/testing split was 70/30
+- **Part 2 (Preceptron and Adaline)**
+  - Preceptron
+      -  Used (`GridsearchCV`) (α, penalty, early_stopping).
+      -  It found that the best parameters were (`alpha = .0001`), (`Penalty = Elasticnet`), and (`early_stopping=True`)
+        -  Performance:
+            - CV score: **.81**
+            - Test accuracy: **.84**
+  - Adaline
+      - Used Adaline (`GD`) and (`SGD`)
+      - We tracked the MSE across Epochs, this showed effective learning
+      - **Results**
+          - AdalineSGD test accuracy: **.8395**
+          - AdalineGD test accuracy: **.8407**
+      - The best settings were (`n = 0.1`) and (`n_iter = 50`)
+
+
+- **Part 3 (SVM and Logistic Regression)**
+    - **Logistic Regression**
+        - Tested C = [0.01, 1.0, 100.0]
+        - We found that the best C was 1.0 and it got us an accuracy of .8479
+
+    - **SVM**
+        - Tested C = [0.01, 1.0, 100.0]
+        - We found that the best C was 0.01 and it got us an accuracy of .8477
+    
+  - **Decision Boundaries**
+      - We tested Age and Capital loss on Logistic Regression we realized that there was a diagonal line so both age and Capital loss mattters
+      - We tested Age and Capital loss on SVM we realized that there was an horizontal line so what this means was that the model relies more on capital loss
+
+
+
+  - **Regularization**
+      - We realized that both models did improve with modarate C values
+      - Small C it would underfit
+      - Large C it would Overfit
+      
+        
+
+  - **Confusion Matricies**
+      - SVM: [[5609, 387], [803, 1016]]
+      - Logestic Regression: [[5530, 466], [723, 1096]]
+      - They had basicaly the same performance this basicaly means that both models are strong classifiers
+
+
+  
+
+        
+    
+    
+        
+    
+    
+    
+      
+            
+
 
 
   
