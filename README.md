@@ -22,3 +22,5 @@ We implement both **custom algorithms** from *Machine Learning with PyTorch and 
 ## Location of Repository
 - **Documents** -> Reflection_and_Conceptual_Questions.md
 - **Notebook** -> Group_16_sklearn_perceptron_adaline.ipynb
+- **ML_outputs** -> output prediction files for adaline, preceptron, SVM, and Logistic Regression
+- 
